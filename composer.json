@@ -1,0 +1,19 @@
+{
+    "name": "beaplat/easemob",
+    "description": "The easemob im server for laravel 5.x",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "beaplat",
+            "email": "beaplat@qq.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Beaplat\\Easemob\\": "src/"
+        }
+    }
+}
